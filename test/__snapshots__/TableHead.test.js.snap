@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for TableHead component renders properly 1`] = `
+<thead>
+  <tr>
+    <th
+      className={null}
+      key="0"
+      onClick={[Function]}
+      scope="col"
+    >
+      #
+    </th>
+    <th
+      className={null}
+      key="1"
+      onClick={[Function]}
+      scope="col"
+    >
+      First name
+    </th>
+    <th
+      className={null}
+      key="2"
+      onClick={[Function]}
+      scope="col"
+    >
+      Last name
+    </th>
+    <th
+      className={null}
+      key="3"
+      onClick={[Function]}
+      scope="col"
+    >
+      E-mail
+    </th>
+    <th
+      className={null}
+      key="4"
+      onClick={[Function]}
+      scope="col"
+    >
+      Phone
+    </th>
+  </tr>
+</thead>
+`;

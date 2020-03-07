@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for AddFormInput component renders properly 1`] = `
+<div>
+  <label>
+    #
+  </label>
+  <input
+    className="form-control is-invalid"
+    onChange={[Function]}
+  />
+  <div
+    className="invalid-feedback"
+  >
+    Введите корректное значение.
+  </div>
+</div>
+`;

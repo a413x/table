@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for PagesNav component renders properly 1`] = `
+<div
+  className="container d-flex"
+>
+  <button
+    className="btn btn-light"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Назад
+  </button>
+  <nav
+    className="d-flex w-100 justify-content-around"
+  >
+    <form
+      className="form-inline"
+    >
+      <label>
+        Страница
+      </label>
+      <input
+        className="form-control m-2"
+        id="pageInput"
+        onChange={[Function]}
+        type="number"
+        value={1}
+      />
+      <label>
+        из 
+        2
+      </label>
+    </form>
+    <form
+      className="form-inline"
+    >
+      <label
+        className="mr-2"
+      >
+        Строк на странице:
+      </label>
+      <select
+        onChange={[Function]}
+      >
+        <option>
+          5
+        </option>
+        <option>
+          10
+        </option>
+        <option>
+          50
+        </option>
+      </select>
+    </form>
+  </nav>
+  <button
+    className="btn btn-light"
+    disabled={null}
+    onClick={[Function]}
+  >
+    Далее
+  </button>
+</div>
+`;

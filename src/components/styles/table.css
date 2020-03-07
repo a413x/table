@@ -1,0 +1,17 @@
+th{
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.asc:after,.desc:after{
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border-width: 5px 5px 0;
+  border-style: solid;
+  border-color: #33a transparent;
+}
+.desc:after{
+  border-width: 0 5px 5px;
+}

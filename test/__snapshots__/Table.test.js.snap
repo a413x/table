@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for Table component renders properly 1`] = `
+<table
+  className="table table-hover"
+>
+  <TableHead
+    columns={
+      Array [
+        Object {
+          "field": "id",
+          "title": "#",
+          "type": "number",
+        },
+        Object {
+          "field": "firstName",
+          "title": "First name",
+          "type": "text",
+        },
+        Object {
+          "field": "lastName",
+          "title": "Last name",
+          "type": "text",
+        },
+        Object {
+          "field": "email",
+          "title": "E-mail",
+          "type": "email",
+        },
+        Object {
+          "field": "phone",
+          "title": "Phone",
+          "type": "phone",
+        },
+      ]
+    }
+    sortFunc={[Function]}
+  />
+  <tbody>
+    <tr
+      key="0"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        1
+      </td>
+      <td
+        key="1"
+      >
+        A
+      </td>
+      <td
+        key="2"
+      >
+        B
+      </td>
+      <td
+        key="3"
+      >
+        a@aa.aa
+      </td>
+      <td
+        key="4"
+      >
+        11111111111
+      </td>
+    </tr>
+    <tr
+      key="1"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        2
+      </td>
+      <td
+        key="1"
+      >
+        C
+      </td>
+      <td
+        key="2"
+      >
+        D
+      </td>
+      <td
+        key="3"
+      >
+        b@bb.bb
+      </td>
+      <td
+        key="4"
+      >
+        21111111111
+      </td>
+    </tr>
+    <tr
+      key="2"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        3
+      </td>
+      <td
+        key="1"
+      >
+        E
+      </td>
+      <td
+        key="2"
+      >
+        F
+      </td>
+      <td
+        key="3"
+      >
+        c@cc.cc
+      </td>
+      <td
+        key="4"
+      >
+        31111111111
+      </td>
+    </tr>
+    <tr
+      key="3"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        4
+      </td>
+      <td
+        key="1"
+      >
+        G
+      </td>
+      <td
+        key="2"
+      >
+        H
+      </td>
+      <td
+        key="3"
+      >
+        d@dd.dd
+      </td>
+      <td
+        key="4"
+      >
+        41111111111
+      </td>
+    </tr>
+    <tr
+      key="4"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        5
+      </td>
+      <td
+        key="1"
+      >
+        I
+      </td>
+      <td
+        key="2"
+      >
+        J
+      </td>
+      <td
+        key="3"
+      >
+        e@ee.ee
+      </td>
+      <td
+        key="4"
+      >
+        51111111111
+      </td>
+    </tr>
+    <tr
+      key="5"
+      onClick={[Function]}
+    >
+      <td
+        key="0"
+      >
+        6
+      </td>
+      <td
+        key="1"
+      >
+        K
+      </td>
+      <td
+        key="2"
+      >
+        L
+      </td>
+      <td
+        key="3"
+      >
+        f@ff.ff
+      </td>
+      <td
+        key="4"
+      >
+        61111111111
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

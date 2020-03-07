@@ -1,0 +1,14 @@
+.selectedUser{
+  display: inline-block;
+  position: relative;
+}
+.selectedUser textarea{
+  width: 250px;
+  height: 100px;
+  resize: none;
+}
+.selectedUser button{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for App component renders properly 1`] = `
+<div
+  className="container"
+>
+  <LoadData
+    isLoading={false}
+    onLoadData={[Function]}
+  />
+  <AddForm
+    addUser={[Function]}
+    columns={
+      Array [
+        Object {
+          "field": "id",
+          "title": "#",
+          "type": "number",
+        },
+        Object {
+          "field": "firstName",
+          "title": "First name",
+          "type": "text",
+        },
+        Object {
+          "field": "lastName",
+          "title": "Last name",
+          "type": "text",
+        },
+        Object {
+          "field": "email",
+          "title": "E-mail",
+          "type": "email",
+        },
+        Object {
+          "field": "phone",
+          "title": "Phone",
+          "type": "phone",
+        },
+      ]
+    }
+  />
+  <Search
+    columns={
+      Array [
+        Object {
+          "field": "id",
+          "title": "#",
+          "type": "number",
+        },
+        Object {
+          "field": "firstName",
+          "title": "First name",
+          "type": "text",
+        },
+        Object {
+          "field": "lastName",
+          "title": "Last name",
+          "type": "text",
+        },
+        Object {
+          "field": "email",
+          "title": "E-mail",
+          "type": "email",
+        },
+        Object {
+          "field": "phone",
+          "title": "Phone",
+          "type": "phone",
+        },
+      ]
+    }
+    searchFunc={[Function]}
+  />
+  <Table
+    columns={
+      Array [
+        Object {
+          "field": "id",
+          "title": "#",
+          "type": "number",
+        },
+        Object {
+          "field": "firstName",
+          "title": "First name",
+          "type": "text",
+        },
+        Object {
+          "field": "lastName",
+          "title": "Last name",
+          "type": "text",
+        },
+        Object {
+          "field": "email",
+          "title": "E-mail",
+          "type": "email",
+        },
+        Object {
+          "field": "phone",
+          "title": "Phone",
+          "type": "phone",
+        },
+      ]
+    }
+    data={Array []}
+    onRowClick={[Function]}
+    sortFunc={[Function]}
+  />
+  <PagesNav
+    currentPage={1}
+    onNumberShownChange={[Function]}
+    onPageChange={[Function]}
+    pages={0}
+  />
+</div>
+`;
