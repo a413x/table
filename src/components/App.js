@@ -64,7 +64,8 @@ class App extends Component {
         return false;
       });
       this.setState({
-        users: filteredUsers
+        users: filteredUsers,
+        page: 1
       });
     }
 
