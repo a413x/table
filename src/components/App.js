@@ -7,6 +7,16 @@ import SelectedUser from './SelectedUser.js';
 import AddForm from './AddForm.js';
 import LoadData from './LoadData.js';
 
+//Колонки таблицы
+//field - ключ данных в базе данных,
+//title - имя колонки в шапке таблицы,
+//type - тип данных для валидации при добавлении строки
+const tableColumns = [{field:'id',title:'#',type:'number'},
+  {field:'firstName',title:'First name',type:'text'},
+  {field:'lastName',title:'Last name',type:'text'},
+  {field:'email',title:'E-mail',type:'email'},
+  {field:'phone',title:'Phone',type:'phone'}];
+
 class App extends Component {
     constructor(props){
       super(props);
@@ -115,12 +125,6 @@ class App extends Component {
         const currentPage = this.state.page;
         const shownUsers = this.getShownData(currentPage);
         const numberOfPages = Math.ceil(this.state.users.length/this.state.numberOfShownUsers);
-
-        const tableColumns = [{field:'id',title:'#',type:'number'},
-          {field:'firstName',title:'First name',type:'text'},
-          {field:'lastName',title:'Last name',type:'text'},
-          {field:'email',title:'E-mail',type:'email'},
-          {field:'phone',title:'Phone',type:'phone'}];
         return (
           <div className = 'container'>
             <LoadData onLoadData = {this.onLoadData} isLoading = {this.state.isLoading}/>
