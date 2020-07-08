@@ -27,7 +27,6 @@ class App extends Component {
         selectedUser:null,
         isLoading: false
       };
-      this.usersCopy = [];
       this.searchFunc = this.searchFunc.bind(this);
       this.onNumberShownChange = this.onNumberShownChange.bind(this);
       this.getShownData = this.getShownData.bind(this);
@@ -47,7 +46,6 @@ class App extends Component {
             users: data,
             isLoading: false
           });
-          this.usersCopy = data;
         }).catch(error => {
           alert('Не удалось загрузить данные');
           this.setState({isLoading: false});
@@ -64,6 +62,11 @@ class App extends Component {
     }
 
     searchFunc(str,columnsToSearch){
+      //сохраняем копию данных
+      if(!this.usersCopy){
+        this.usersCopy = [... this.state.users];
+      }
+      //фильтруем копию данных, чтобы сохранить их до конца поиска
       const filteredUsers = this.usersCopy.filter((user)=>{
         for(let i = 0; i < columnsToSearch.length; i++){
           const val = user[columnsToSearch[i].field];
@@ -77,6 +80,11 @@ class App extends Component {
         users: filteredUsers,
         page: 1
       });
+      //конец поиска, обнуляем копию
+      if(!str){
+        this.usersCopy = null;
+        return;
+      }
     }
 
     sortFunc(field,order){
@@ -118,7 +126,6 @@ class App extends Component {
       this.setState({
         users: newUsers
       });
-      this.usersCopy = newUsers;
     }
 
     render() {
